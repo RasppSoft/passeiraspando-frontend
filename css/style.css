@@ -1,0 +1,31 @@
+/*
+#corpo{
+	background-color: #AC87FF;
+	width: 100%;
+}
+
+header{
+	background-color: #3A97FF;
+}
+
+#menu{
+	background-color: #245BE8;
+}
+*/
+footer{
+	/*background-color: #3546FF;*/
+	float: left;
+	position: relative;
+}
+
+#files{
+	float: left;
+}
+
+#subjects{
+	float: left;
+}
+
+#search{
+	height: 100px;
+}
