@@ -1,31 +1,22 @@
-/*
 #corpo{
-	background-color: #AC87FF;
-	width: 100%;
+	/*background-color: #AC87FF;*/
+	position: relative;
+
 }
 
 header{
-	background-color: #3A97FF;
+	/*background-color: #3A97FF;*/
 }
 
 #menu{
-	background-color: #245BE8;
+	/*background-color: #245BE8;*/
 }
-*/
+
 footer{
 	/*background-color: #3546FF;*/
-	float: left;
-	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-#files{
-	float: left;
-}
 
-#subjects{
-	float: left;
-}
-
-#search{
-	height: 100px;
-}
