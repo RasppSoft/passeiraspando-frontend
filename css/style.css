@@ -1,22 +1,37 @@
-#corpo{
-	/*background-color: #AC87FF;*/
-	position: relative;
-
-}
-
 header{
-	/*background-color: #3A97FF;*/
+	background-color: #3A97FF;
+	position: relative;
+	padding-top: 1%;
 }
 
-#menu{
-	/*background-color: #245BE8;*/
+.nav-link{
+	margin-left: 80px;
+}
+
+#navbarSupportedContent{
+	background-color: yellow;
+}
+
+#miolo{
+	background-color: #AC87FF;
+	position: relative;
+	padding: 6.5%;
+	color: white;
+}
+
+#pe{
+	background-color: #3546FF;
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 footer{
-	/*background-color: #3546FF;*/
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	background-color: #3546FF;
+	width: 100%;
+	position: relative;
+	padding: 1.5%  1%;
+	color: white;
 }
-
-
