@@ -4,10 +4,18 @@ header{
 	padding-top: 1%;
 }
 
+.nav-link{
+	margin-left: 80px;
+}
+
+#navbarSupportedContent{
+	background-color: yellow;
+}
+
 #miolo{
 	background-color: #AC87FF;
 	position: relative;
-	padding: 2%  1%;
+	padding: 6.5%;
 	color: white;
 }
 
@@ -24,6 +32,6 @@ footer{
 	background-color: #3546FF;
 	width: 100%;
 	position: relative;
-	padding: 1.5%  1.5%;
+	padding: 1.5%  1%;
 	color: white;
 }
