@@ -1,26 +1,62 @@
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+
 header{
-	background-color: #3A97FF;
+	background-color: #63A8C9;
 	position: relative;
 	padding-top: 1%;
 }
 
-.nav-link{
-	margin-left: 80px;
+nav{
+	margin-top: 1%;
+	background-color: #31829F;
+	font-size: 18px;
 }
 
-#navbarSupportedContent{
-	background-color: yellow;
+a{
+	color: white!important;
 }
 
 #miolo{
-	background-color: #AC87FF;
+	background-color: #95A5AC;
 	position: relative;
-	padding: 6.5%;
-	color: white;
+	padding-top: 4.1%;
+	padding-bottom: 4.1%;
+	color: black;
+}
+
+#first-a{
+	margin-left: 100px;
+}
+
+#last-a{
+	margin-right: 300px;
+}
+
+.nav-link{
+	margin-left: 70px;
+}
+
+.under-text1{
+	margin-top: 60px;
+}
+
+.under-text2{
+	margin-top: 30px;
+}
+
+.search-query{
+	border-radius: 15px;
+	border-style: none;
+	outline: none;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 8px;
 }
 
 #pe{
-	background-color: #3546FF;
+	background-color: #4C91B0;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -29,9 +65,17 @@ header{
 }
 
 footer{
-	background-color: #3546FF;
+	background-color: #4C91B0;
 	width: 100%;
 	position: relative;
 	padding: 1.5%  1%;
 	color: white;
+}
+
+#footer-text{
+	padding-left: 30%;
+}
+
+#go-top{
+	padding-left: 25%;
 }
