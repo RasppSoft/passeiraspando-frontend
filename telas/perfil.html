@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Perfil</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<img src="../assets/images/logotipo-passei-raspando.png">
+			<p id="user">Ola Tiago</p>
+			<section id="menu">
+				<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+					  		<li class="nav-item active">
+								<a class="nav-link" id="first-a" href="#">Inicio <span class="sr-only">(current)</span></a>
+					  		</li>
+					  		<li class="nav-item active">
+								<a class="nav-link" href="#">Disciplinas <span class="sr-only">(current)</span></a>
+					  		</li>
+					  		<li class="nav-item active">
+								<a class="nav-link" href="#">Universidades <span class="sr-only">(current)</span></a>
+				 			</li>
+				  			<li class="nav-item active">
+								<a class="nav-link" href="#">Meus Arquivos <span class="sr-only">(current)</span></a>
+				  			</li>
+				  			<li class="nav-item active">
+								<a class="nav-link" href="#">Perfil <span class="sr-only">(current)</span></a>
+				  			</li>
+				  			<li class="nav-item active">
+								<a class="nav-link" id="last-a" href="#">Sair <span class="sr-only">(current)</span></a>
+					  		</li>
+						</ul>
+				 	</div>
+				</nav>
+		</section>
+		</div>
+	</header>
+
+	<section id="miolo">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8" id="left">
+					<h2>Meu perfil</h2>
+					<img src="../assets/images/perfil_image.png" id="perfil_image">
+					<div id="information">
+						<p><b>Nome:</b>Tiago Pagotto</p>
+						<p><b>Email:</b>pagotto@alunos.utfpr.edu.br</p>
+						<p><b>Universidade:</b>UTFPR</p>
+						<p><b>Curso:</b>Engenharia de Software</p>
+						<p><b>Periodo:</b>7/8</p>
+						<p><b>Arquivos:</b>123</p>
+						<p><b>Nivel:</b>Veterano</p>
+					</div>
+					<button type="button" class="btn btn-secondary" id="profile_button">Editar Perfil</button>
+				</div>
+				<div class="col-lg-4" id="right">
+						<h2>Esta buscando algo?</h2>
+						<form class="navbar-search pull-left">
+	  						<input type="text" class="search-query" placeholder="Digite aqui">
+						</form>
+
+						<div class="radio">
+	  						<label><input type="radio" name="optradio">Arquivos</label>
+						</div>
+						<div class="radio">
+	  						<label><input type="radio" name="optradio">Disciplinas</label>
+						</div>
+						<div class="radio">
+	  						<label><input type="radio" name="optradio">Universidades</label>
+						</div>
+						<div class="radio">
+	  						<label><input type="radio" name="optradio">Usuarios</label>
+						</div>
+						<button type="button" class="btn btn-default"><img src="../assets/svgs/busca.svg">  Buscar</button>
+						<h2 class="under-text2">Top Usuarios</h2>
+						<ul>
+							<li>Amilton(220 arquivos)</li>
+							<li>Tiago(180 arquivos)</li>
+							<li>Guilherme(120 arquivos)</li>
+							<li>Carlos(89 arquivos)</li>
+							<li>Diogo(33 arquivos)</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div id="pe">
+				<h3 id="footer-text">Passei Respando - 2017</h3>
+				<a href="" id="go-top">Voltar ao topo</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
