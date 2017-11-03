@@ -1,26 +1,82 @@
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+
 header{
-	background-color: #3A97FF;
+	/*background-color: #63A8C9;*/
+	background-color: grey;
 	position: relative;
 	padding-top: 1%;
 }
 
-.nav-link{
-	margin-left: 80px;
-}
-
-#navbarSupportedContent{
-	background-color: yellow;
-}
-
-#miolo{
-	background-color: #AC87FF;
-	position: relative;
-	padding: 6.5%;
+#user{
+	float: right;
 	color: white;
 }
 
+nav{
+	margin-top: 1%;
+}
+
+nav a{
+	color: black!important;
+}
+
+#information{
+	float: right;
+	margin-right: 25%;
+}
+
+#profile_button{
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+a{
+	color: white!important;
+}
+
+#miolo{
+	/*background-color: #95A5AC;*/
+	background-color: #CCC;
+	position: relative;
+	padding-top: 4.1%;
+	padding-bottom: 4.1%;
+	color: black;
+}
+
+#first-a{
+	margin-left: 100px;
+}
+
+#last-a{
+	margin-right: 300px;
+}
+
+.nav-link{
+	margin-left: 70px;
+}
+
+.under-text1{
+	margin-top: 60px;
+}
+
+.under-text2{
+	margin-top: 30px;
+}
+
+.search-query{
+	border-radius: 15px;
+	border-style: none;
+	outline: none;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 8px;
+}
+
 #pe{
-	background-color: #3546FF;
+	/*background-color: #4C91B0;*/
+	background-color: grey;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -28,10 +84,79 @@ header{
 	justify-content: center;
 }
 
+#login{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+
+#corpo_login{
+	background-color: #CCC;
+}
+
 footer{
-	background-color: #3546FF;
+	/*background-color: #4C91B0;*/
+	background-color: grey;
 	width: 100%;
 	position: relative;
 	padding: 1.5%  1%;
 	color: white;
+}
+
+#footer-text{
+	padding-left: 30%;
+}
+
+#go-top{
+	padding-left: 25%;
+}
+
+#perfil_image{
+	width: 250px;
+	height: 250px;
+	margin-left: 0;
+	margin-top: 25px;
+}
+
+/* layout.css Style */
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
 }
